@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.button-approve {
+  color: #08c033;
+  border: 1px solid #08c033;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button-decline {
+  color: red;
+  border: 1px solid red;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

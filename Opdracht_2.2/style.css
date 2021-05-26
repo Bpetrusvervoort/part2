@@ -3,8 +3,8 @@ html body {
 }
 
 .link-1 :hover {
-  font-weight: bold;
-  color: lightblue;
+    color: lightblue;
+    font-weight: bold;
 }
 
 .link-2 :active {
@@ -21,10 +21,6 @@ html body {
   color: green;
 }
 
-nav {
-    background-color: darkblue;
-}
-
 nav ul {
     list-style-type: none;
     margin: 0px;
@@ -36,14 +32,15 @@ nav ul li {
     width: 25%;
 }
 
+.currentPage {
+    background-color: rgb(108, 120, 164);
+}
+
 button {
     background:darkblue;
     width: 100%;
 }
 
-.currentPage {
-    background-color: rgb(108, 120, 164);
-}
 button:hover {
     background: lightblue;
 }

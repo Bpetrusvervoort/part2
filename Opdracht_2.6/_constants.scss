@@ -1,0 +1,10 @@
+$padding: 20px;
+$background-color: #c0eea9;
+
+@mixin text-block() {
+  max-width: 700px;
+  text-align: center;
+  padding: $padding;
+  line-height: 1.4em;
+  padding-bottom: 1em;
+}
